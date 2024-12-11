@@ -13,6 +13,8 @@ elseif platform.is_win then
 end
 
 local keys = {
+  { key = "Tab", mods = "CTRL", action = act.ActivateTabRelative(1) },
+  { key = "Tab", mods = "CTRL|SHIFT", action = act.ActivateTabRelative(-1) },
   -- misc/useful --
   { key = "F1", mods = "NONE", action = "ActivateCopyMode" },
   { key = "F2", mods = "NONE", action = act.ActivateCommandPalette },
@@ -57,7 +59,7 @@ local keys = {
   {
     key = [[-]],
     mods = mod.SUPER_REV,
-    action = act.CloseCurrentPane({ confirm = true }),
+    action = act.CloseCurrentPane({ confirm = false }),
   },
 
   -- panes: zoom+close pane
