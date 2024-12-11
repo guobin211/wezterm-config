@@ -44,7 +44,7 @@ return {
   enable_tab_bar = true,
   hide_tab_bar_if_only_one_tab = false,
   use_fancy_tab_bar = true,
-  tab_max_width = 25,
+  tab_max_width = 36,
   show_tab_index_in_tab_bar = true,
   switch_to_last_active_tab_when_closing_tab = true,
 
@@ -61,12 +61,12 @@ return {
   integrated_title_button_color = "auto",
   integrated_title_button_alignment = "Right",
   initial_cols = 120,
-  initial_rows = 24,
+  initial_rows = 36,
   window_padding = {
-    left = 5,
-    right = 10,
-    top = 12,
-    bottom = 7,
+    left = 0,
+    right = 0,
+    top = 0,
+    bottom = 0,
   },
   window_close_confirmation = "AlwaysPrompt",
   window_frame = {
